@@ -1,9 +1,9 @@
 class Jrnl < Formula
   include Language::Python::Virtualenv
-  desc "Command-line note taker"
+  desc "Command-line Journaling App"
   homepage "https://maebert.github.io/jrnl/"
-  url "https://github.com/maebert/jrnl/archive/1.9.7.tar.gz"
-  sha256 "789de4bffe0c22911a4968e525feeb20a6c7c4f4fe762a936ce2dac2213cd855"
+  url "https://github.com/maebert/jrnl/archive/1.9.8.tar.gz"
+  sha256 "ec9dcf01f67a2329218fcd090b56042379937b269ddbd8c0c64097636f012e63"
 
   bottle do
     cellar :any_skip_relocation
